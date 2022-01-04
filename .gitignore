@@ -1,0 +1,9 @@
+# ignore data 
+data/
+
+# ignore ipynb checkpoints
+.ipynb_checkpoints
+*checkpoint*
+
+# ignore files in progress (i.e., not finalized for Git)
+in_progress/
