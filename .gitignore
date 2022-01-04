@@ -6,3 +6,6 @@ data/
 
 # ignore files in progress (i.e., not finalized for Git)
 in_progress/
+
+# ignore mac files
+.DS_Store
