@@ -1,7 +1,19 @@
 # Overlapping Fields
-## Overview of the overlap between C3 fields (VVDS, COSMOS, EGS) and DES, HSC, and KiDS. 
+### <em> Overview of the overlap between C3 fields (VVDS, COSMOS, EGS) and DES, HSC, and KiDS. </em> 
 
-## HSC 
+# The Catalogs
+
+- vvds_c3r2_phot_2021nov17.fits — VVDS-2h photometry
+- cosmos_c3r2_phot_2021nov17.fits — COSMOS photometry
+- positions_mcal-y1a1-combined-riz-unblind-v4-matched.fits — DES positions (truncated from shear catalog)
+- target_wide_s17a_9812.fits — HSC photoz with lensing cuts
+- target_wide_s17a_9813.fits — HSC photoz with lensing cuts
+- COSMOSadaptdepth_ugriZYJHKs_rot_photoz.cat — KiDS + CFHT-z (z.MP9801, the first-generation one) + UltraVISTA YJHK photometry
+
+ 
+
+# HSC
+
 ## VVDS x HSC (wide)
 
 **VVDS**
@@ -24,7 +36,11 @@ VVDS x HSC 9812 **do not** **have** any matches. The smallest on-sky distance be
 
 VVDS x HSC 9813 **do not have** any matches. The smallest on-sky distance between any two sources is ~112.56$\degree$.
 
-## COSMOS x HSC (wide)
+**Visual Inspection:** 
+
+No overlap. (Note: HSC-wide catalog has lensing cuts) 
+
+COSMOS x HSC (wide) 
 
 **COSMOS**
 
@@ -46,6 +62,10 @@ COSMOS x HSC 9812 **have** 17,816 matches.
 
 COSMOS x HSC 9813 **have** 252,447 matches. 
 
+**Visual Inspection:** 
+
+Overlap. 
+
 ## EGS x HSC (wide)
 
 **EGS**
@@ -61,7 +81,11 @@ EGS x HSC 9812 **do not have** any matches.
 
 EGS x HSC 9813 **do not have** any matches. 
 
-# ### DES
+**Visual Inspection:** 
+
+No overlap.
+
+# DES
 
 ## VVDS x DES
 
@@ -77,6 +101,10 @@ EGS x HSC 9813 **do not have** any matches.
 
 VVDS x DES **have** 57,693 matches. 
 
+**Visual Inspection:** 
+
+Overlap.
+
 ## COSMOS x DES
 
 **COSMOS**
@@ -91,9 +119,9 @@ VVDS x DES **have** 57,693 matches.
 
 COSMOS x DES **have** 177,223 matches. 
 
-Double check this result! 
+ **Visual Inspection:** 
 
- 
+Overlap is between COSMOS and DES Science Verification lensing shear catalog... (i.e., Jarvis et al 2015). 
 
 ## EGS x DES
 
@@ -110,16 +138,65 @@ No C3R2 catalog is yet available. Using bounds of field.
 
 **Results:** 
 
-Still running? 
+EGS x DES **do not have** any matches.
 
-By inspection, there is no overlap. 
+**Visual Inspection:** 
 
-# Creating the Footprint Plot...
+No overlap. 
 
-**Which fields do we need?** 
+# KiDS
 
-HSC, DES, KiDS
+## VVDS x KiDS
 
-And also C3R2: 
+**VVDS**
 
-VVDS, COSMOS, EGS
+- vvds_c3r2_phot_2021nov17.fits
+
+**KiDS**
+
+- COSMOSadaptdepth_ugriZYJHKs_rot_photoz.cat
+
+**Results:** 
+
+VVDS x KiDS **do not have** any matches. 
+
+**Visual Inspection:** 
+
+No overlap. 
+
+## COSMOS x KiDS
+
+**COSMOS**
+
+- cosmos_c3r2_phot_2021nov17.fits
+
+**KiDS**
+
+- COSMOSadaptdepth_ugriZYJHKs_rot_photoz.cat
+
+**Results:**
+
+COSMOS x KiDS **have** 87,683 ****matches. 
+
+**Visual Inspection:** 
+
+Overlap.
+
+## EGS x KiDS
+
+No C3R2 catalog is yet available. Using bounds of field. 
+
+- center (RA, Dec): (214.75, 52.68333)
+- length x width: 1 deg$^2$
+
+**KiDS**
+
+- COSMOSadaptdepth_ugriZYJHKs_rot_photoz.cat
+
+**Results:** 
+
+EGS x KiDS **do not have** any matches. 
+
+**Visual Inspection:** 
+
+No overlap.
