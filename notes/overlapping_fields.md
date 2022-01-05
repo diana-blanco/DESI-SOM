@@ -176,7 +176,7 @@ No overlap.
 
 **Results:**
 
-COSMOS x KiDS **have** 87,683 ****matches. 
+COSMOS x KiDS **have** 87,683 matches. 
 
 **Visual Inspection:** 
 
