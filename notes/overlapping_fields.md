@@ -40,7 +40,7 @@ VVDS x HSC 9813 **do not have** any matches. The smallest on-sky distance betwee
 
 No overlap. (Note: HSC-wide catalog has lensing cuts) 
 
-COSMOS x HSC (wide) 
+## COSMOS x HSC (wide) 
 
 **COSMOS**
 
