@@ -117,11 +117,11 @@ Overlap.
 
 **Results:** 
 
-COSMOS x DES **have** 177,223 matches. 
+COSMOS x DES **do not** have any matches. (?) 
 
  **Visual Inspection:** 
-
-Overlap is between COSMOS and DES Science Verification lensing shear catalog... (i.e., Jarvis et al 2015). 
+No overlap.
+(Observed overlap is between COSMOS and DES Science Verification lensing shear catalog... (i.e., Jarvis et al 2015).) 
 
 ## EGS x DES
 
